@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view />
-    <h2>黑马头条</h2>
   </div>
 </template>
 
@@ -16,5 +15,10 @@ export default {
 }
 </script>
 <style lang="less">
-
+.aa {
+  width: 100px;
+  height: 100px;
+  font-size: 40px;
+  background-color: skyblue;
+}
 </style>
